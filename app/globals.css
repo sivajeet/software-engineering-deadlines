@@ -237,7 +237,7 @@ a {
 
 .v6-calendars {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
 }
 
@@ -448,8 +448,8 @@ a {
 }
 
 .v6-journal-record {
-  border-left: 3px solid var(--journal);
-  padding-left: 14px;
+  border-left: 0;
+  padding-left: 0;
 }
 
 .v6-record-date {
@@ -601,7 +601,7 @@ a {
 .v6-journal-list-heading {
   scroll-margin-top: 18px;
   padding-top: 42px;
-  border-bottom-color: var(--journal);
+  border-bottom: 0;
 }
 
 .v6-journal-list-heading h3,
@@ -611,7 +611,7 @@ a {
 
 .v6-list-subheading {
   padding: 32px 0 14px;
-  border-bottom: 1px solid var(--journal);
+  border-bottom: 0;
 }
 
 .v6-no-journal-results {
@@ -813,6 +813,10 @@ a {
 
   .v6-sidebar label {
     margin-top: 0;
+  }
+
+  .v6-calendars {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
