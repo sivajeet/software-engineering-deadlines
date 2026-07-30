@@ -84,7 +84,7 @@ function formatPagePolicy(call: JournalCall) {
 function getCalendarMonths(currentDate: string) {
   const current = dateFromIso(currentDate);
 
-  return Array.from({ length: 3 }, (_, index) => {
+  return Array.from({ length: 4 }, (_, index) => {
     const month = new Date(
       Date.UTC(
         current.getUTCFullYear(),
@@ -523,9 +523,8 @@ export default function Home() {
       <div className="v6-layout">
         <nav className="v6-nav" aria-label="Page sections">
           <a href="#overview">Overview</a>
-          <a href="#calendar">Three-month calendar</a>
+          <a href="#calendar">Four-month calendar</a>
           <a href="#deadlines">Submission deadlines</a>
-          <a href="#scope">Data scope</a>
           <a href="#sources">Sources</a>
         </nav>
 
@@ -547,7 +546,7 @@ export default function Home() {
 
           <section id="calendar" className="v6-section">
             <div className="v6-section-title">
-              <h2>Three-month calendar</h2>
+              <h2>Four-month calendar</h2>
               <p>
                 Blue marks conference paper deadlines; purple marks journal
                 calls. Hover or focus a date for details.
@@ -913,17 +912,6 @@ export default function Home() {
             </div>
           </section>
 
-          <section id="scope">
-            <h2>Data scope</h2>
-            <ul>
-              <li>Software engineering conferences and journals</li>
-              <li>Conference rank: ICORE 2026 A or A*</li>
-              <li>Journal rank: SJR 2024 Q1 or Q2</li>
-              <li>Public archival calls accepting papers of 8+ pages</li>
-              <li>Future dated and officially ongoing calls</li>
-              <li>Invite-only journal calls excluded</li>
-            </ul>
-          </section>
         </aside>
       </div>
 
