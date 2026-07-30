@@ -6,7 +6,7 @@ deadlines and journal calls for papers.
 ## Features
 
 - Automatically hides passed deadlines using the visitor's local date
-- Shows the current month and the next two months
+- Shows the current month and the next three months
 - Groups conference tracks that share a paper deadline
 - Keeps abstract and paper deadlines together in the deadline list
 - Filters conferences by continent, country, ICORE rank, and track
