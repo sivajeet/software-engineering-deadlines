@@ -1,0 +1,1100 @@
+{
+  "meta": {
+    "dataset_name": "Verified Upcoming A/A* Software Engineering Full-Paper Deadlines",
+    "generated_at": "2026-07-29T10:17:28+02:00",
+    "as_of_date": "2026-07-29",
+    "last_completeness_audit_at": "2026-07-29T10:17:28+02:00",
+    "status": "human_reviewed_snapshot",
+    "scope": {
+      "ranking_system": "ICORE",
+      "ranking_version": "ICORE2026",
+      "included_ranks": [
+        "A*",
+        "A"
+      ],
+      "discipline_definition": "Conference series whose primary identity is software engineering. Adjacent programming-languages, formal-methods, information-systems, and security venues are outside this version even when ICORE assigns Software Engineering as a field.",
+      "deadline_definition": "Only submission-related deadlines later than 2026-07-29 are included. Notification and camera-ready dates are intentionally omitted.",
+      "paper_definition": "Archival conference-paper categories whose official maximum main-text limit is at least 8 pages.",
+      "page_limit_rule": "main_text_pages >= 8",
+      "rank_scope_note": "The ICORE rank belongs to the conference series, not to each individual track."
+    },
+    "counts": {
+      "conference_editions": 7,
+      "eligible_tracks": 16,
+      "eligible_paper_categories": 19,
+      "submission_deadline_records": 27
+    },
+    "quality_policy": [
+      "Rank must be supported by an ICORE2026 record.",
+      "Edition dates and location are recorded only when available from an official conference page; otherwise they remain null.",
+      "Each included paper category must have an official page-limit statement.",
+      "Each included track must have at least one future official submission deadline.",
+      "No page limit, timezone, publication status, or deadline is inferred from an earlier edition.",
+      "Unknown values remain null rather than being guessed."
+    ]
+  },
+  "editions": [
+    {
+      "id": "saner-2027",
+      "conference": {
+        "acronym": "SANER",
+        "name": "IEEE International Conference on Software Analysis, Evolution and Reengineering",
+        "aliases": [],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/2280/"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-03-09",
+        "end_date": "2027-03-12"
+      },
+      "location": {
+        "venue": "Virginia Commonwealth University",
+        "city": "Richmond",
+        "region": "Virginia",
+        "country": "United States",
+        "country_code": "US",
+        "continent": "North America"
+      },
+      "official_url": "https://conf.researchr.org/home/saner-2027",
+      "tracks": [
+        {
+          "id": "saner-2027-research",
+          "name": "Research Track",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "The track accepts full papers only."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Mandatory abstract submission",
+              "date": "2026-09-21",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission",
+              "date": "2026-09-25",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/saner-2027/saner-2027-papers"
+        },
+        {
+          "id": "saner-2027-agentic-ai4se",
+          "name": "Agentic AI4SE Track",
+          "category": "specialized_research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Agentic AI4SE paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Mandatory abstract submission",
+              "date": "2026-10-19",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/saner-2027/saner-2027-agentic-ai4se-track"
+        },
+        {
+          "id": "saner-2027-industrial",
+          "name": "Industrial Track",
+          "category": "industry",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full industrial paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "Two-page talk proposals are offered by the track but are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Mandatory abstract submission",
+              "date": "2026-10-19",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/saner-2027/saner-2027-industrial-track"
+        },
+        {
+          "id": "saner-2027-rene",
+          "name": "Reproducibility Studies and Negative Results (RENE) Track",
+          "category": "replication_negative_results",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "New reproducibility study or new negative-results paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "Five-page appendices to previously published work are offered by the track but are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Mandatory abstract submission",
+              "date": "2026-10-19",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/saner-2027/saner-2027-reproducibility-studies-and-negative-results-rene-track"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/saner-2027",
+          "https://conf.researchr.org/track/saner-2027/saner-2027-papers",
+          "https://conf.researchr.org/track/saner-2027/saner-2027-agentic-ai4se-track",
+          "https://conf.researchr.org/track/saner-2027/saner-2027-industrial-track",
+          "https://conf.researchr.org/track/saner-2027/saner-2027-reproducibility-studies-and-negative-results-rene-track",
+          "https://portal.core.edu.au/conf-ranks/2280/"
+        ],
+        "notes": []
+      }
+    },
+    {
+      "id": "fse-2027",
+      "conference": {
+        "acronym": "FSE",
+        "name": "ACM International Conference on the Foundations of Software Engineering",
+        "aliases": [
+          "ESEC/FSE"
+        ],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A*",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/52/"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-07-12",
+        "end_date": "2027-07-16"
+      },
+      "location": {
+        "venue": null,
+        "city": "Shenzhen",
+        "region": null,
+        "country": "China",
+        "country_code": "CN",
+        "continent": "Asia"
+      },
+      "official_url": "https://conf.researchr.org/home/fse-2027",
+      "tracks": [
+        {
+          "id": "fse-2027-research",
+          "name": "Research Papers",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Research paper",
+              "main_text_pages": 18,
+              "reference_pages": 4,
+              "references_excluded_from_main_limit": true,
+              "format": "ACM acmsmall, single column",
+              "notes": "A conditionally invited major revision may use 20 main-text pages plus 4 reference pages."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Full paper submission",
+              "date": "2026-10-02",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "revision",
+              "label": "Major revision submission",
+              "date": "2027-03-05",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": true,
+              "notes": "Applies only to papers receiving a major-revision decision."
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/fse-2027/fse-2027-papers"
+        },
+        {
+          "id": "fse-2027-industry",
+          "name": "Industry Papers",
+          "category": "industry",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Long industry paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "ACM sigconf, double column",
+              "notes": "Five-page short papers are offered by the track but are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Submission deadline",
+              "date": "2027-01-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers"
+        },
+        {
+          "id": "fse-2027-software-engineering-education",
+          "name": "Software Engineering Education",
+          "category": "education",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "ACM sigconf, double column",
+              "notes": null
+            },
+            {
+              "name": "Experience report",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "ACM sigconf, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Submission deadline",
+              "date": "2027-01-29",
+              "time": null,
+              "timezone": null,
+              "timezone_label": null,
+              "mandatory": true,
+              "conditional": false,
+              "notes": "The official CFP states the date but does not specify a timezone."
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/fse-2027/fse-2027-software-engineering-education"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/fse-2027",
+          "https://conf.researchr.org/track/fse-2027/fse-2027-papers",
+          "https://conf.researchr.org/track/fse-2027/fse-2027-industry-papers",
+          "https://conf.researchr.org/track/fse-2027/fse-2027-software-engineering-education",
+          "https://portal.core.edu.au/conf-ranks/52/"
+        ],
+        "notes": []
+      }
+    },
+    {
+      "id": "icse-2027",
+      "conference": {
+        "acronym": "ICSE",
+        "name": "IEEE/ACM International Conference on Software Engineering",
+        "aliases": [],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A*",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/1209/"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-04-25",
+        "end_date": "2027-05-01"
+      },
+      "location": {
+        "venue": "The Convention Centre Dublin",
+        "city": "Dublin",
+        "region": null,
+        "country": "Ireland",
+        "country_code": "IE",
+        "continent": "Europe"
+      },
+      "official_url": "https://conf.researchr.org/home/icse-2027",
+      "tracks": [
+        {
+          "id": "icse-2027-seet",
+          "name": "Software Engineering Education and Training (SEET)",
+          "category": "education",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            },
+            {
+              "name": "Experience report",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "SEET submissions deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icse-2027/icse-2027-software-engineering-education-and-training--seet-"
+        },
+        {
+          "id": "icse-2027-seip",
+          "name": "Software Engineering in Practice (SEIP)",
+          "category": "practice",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full practice paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Submission deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icse-2027/icse-2027-seip"
+        },
+        {
+          "id": "icse-2027-seis",
+          "name": "Software Engineering in Society (SEIS)",
+          "category": "society",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            },
+            {
+              "name": "Experience report",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Submissions deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icse-2027/icse-2027-seis"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/icse-2027",
+          "https://conf.researchr.org/track/icse-2027/icse-2027-software-engineering-education-and-training--seet-",
+          "https://conf.researchr.org/track/icse-2027/icse-2027-seip",
+          "https://conf.researchr.org/track/icse-2027/icse-2027-seis",
+          "https://portal.core.edu.au/conf-ranks/1209/"
+        ],
+        "notes": [
+          "The ICSE 2027 main Research Track is not included because its June 30, 2026 submission deadline had already passed on the dataset date.",
+          "The Industry Challenge solution-paper call is listed under checked exclusions because archival publication was not explicitly confirmed on its CFP."
+        ]
+      }
+    },
+    {
+      "id": "seams-2027",
+      "conference": {
+        "acronym": "SEAMS",
+        "name": "International Symposium on Software Engineering for Adaptive and Self-Managing Systems",
+        "aliases": [],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/2281/"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-04-26",
+        "end_date": "2027-04-27"
+      },
+      "location": {
+        "venue": "The Convention Centre Dublin",
+        "city": "Dublin",
+        "region": null,
+        "country": "Ireland",
+        "country_code": "IE",
+        "continent": "Europe"
+      },
+      "official_url": "https://conf.researchr.org/home/seams-2027",
+      "tracks": [
+        {
+          "id": "seams-2027-research",
+          "name": "Research Track",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "Four-page short and industry papers are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "full_paper",
+              "label": "Submission deadline",
+              "date": "2026-10-21",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "revision",
+              "label": "Submission of revisions",
+              "date": "2027-01-05",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": true,
+              "notes": "Applies only to submissions invited to revise."
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/seams-2027/seams-2027-research-track"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/seams-2027",
+          "https://conf.researchr.org/track/seams-2027/seams-2027-research-track",
+          "https://portal.core.edu.au/conf-ranks/2281/"
+        ],
+        "notes": []
+      }
+    },
+    {
+      "id": "icpc-2027",
+      "conference": {
+        "acronym": "ICPC",
+        "name": "IEEE/ACM International Conference on Program Comprehension",
+        "aliases": [
+          "IWPC"
+        ],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/1181/",
+          "ranking_record_name": "IEEE International Conference on Program Comprehension (previously IWPC)"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-04-25",
+        "end_date": "2027-04-26"
+      },
+      "location": {
+        "venue": "The Convention Centre Dublin",
+        "city": "Dublin",
+        "region": null,
+        "country": "Ireland",
+        "country_code": "IE",
+        "continent": "Europe"
+      },
+      "official_url": "https://conf.researchr.org/home/icpc-2027",
+      "tracks": [
+        {
+          "id": "icpc-2027-research",
+          "name": "Research Track",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Abstract deadline",
+              "date": "2026-10-29",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": null,
+              "conditional": false,
+              "notes": "The official page lists an abstract date but does not clearly label it mandatory."
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission deadline",
+              "date": "2026-11-05",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track"
+        },
+        {
+          "id": "icpc-2027-rene",
+          "name": "Replications and Negative Results (RENE)",
+          "category": "replication_negative_results",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "New replication study or new negative-results paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "Four-page reports of negative results arising from previously published work are offered but are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Abstract deadline",
+              "date": "2026-12-11",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": null,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission deadline",
+              "date": "2026-12-18",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icpc-2027/icpc-2027-replications-and-negative-results--rene-"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/icpc-2027",
+          "https://conf.researchr.org/track/icpc-2027/icpc-2027-research-track",
+          "https://conf.researchr.org/track/icpc-2027/icpc-2027-replications-and-negative-results--rene-",
+          "https://portal.core.edu.au/conf-ranks/1181/"
+        ],
+        "notes": []
+      }
+    },
+    {
+      "id": "icsa-2027",
+      "conference": {
+        "acronym": "ICSA",
+        "name": "IEEE International Conference on Software Architecture",
+        "aliases": [],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/791/"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": null,
+        "end_date": null
+      },
+      "location": {
+        "venue": null,
+        "city": null,
+        "region": null,
+        "country": null,
+        "country_code": null,
+        "continent": null
+      },
+      "official_url": "https://conf.researchr.org/home/icsa-2027",
+      "tracks": [
+        {
+          "id": "icsa-2027-research",
+          "name": "Research Papers",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Technical research paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": null
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Abstract submission",
+              "date": "2026-10-30",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": null,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission",
+              "date": "2026-11-04",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icsa-2027/icsa-2027-papers"
+        },
+        {
+          "id": "icsa-2027-saip",
+          "name": "Software Architecture in Practice",
+          "category": "practice",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Regular practice paper",
+              "main_text_pages": 8,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "IEEE conference, double column",
+              "notes": "The track also accepts two-page technical-talk proposals, which are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Abstract submission",
+              "date": "2026-10-30",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": null,
+              "conditional": false,
+              "notes": null
+            },
+            {
+              "type": "full_paper",
+              "label": "Paper submission",
+              "date": "2026-11-04",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://conf.researchr.org/track/icsa-2027/icsa-2027-software-architecture-in-practice-track"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-29T10:17:28+02:00",
+        "sources": [
+          "https://conf.researchr.org/home/icsa-2027",
+          "https://conf.researchr.org/track/icsa-2027/icsa-2027-papers",
+          "https://conf.researchr.org/track/icsa-2027/icsa-2027-software-architecture-in-practice-track",
+          "https://portal.core.edu.au/conf-ranks/791/"
+        ],
+        "notes": [
+          "The official ICSA 2027 homepage currently lists the event dates and venue as TBD, so the earlier unverified Sydney location and March dates were removed.",
+          "Software Architecture in Practice regular papers are included because their maximum main-text length is exactly 8 pages and accepted papers are published in the companion proceedings."
+        ]
+      }
+    },
+    {
+      "id": "msr-2027",
+      "conference": {
+        "acronym": "MSR",
+        "name": "IEEE/ACM International Conference on Mining Software Repositories",
+        "aliases": [],
+        "ranking": {
+          "system": "ICORE",
+          "version": "ICORE2026",
+          "rank": "A",
+          "field_code": "4612",
+          "field_name": "Software engineering",
+          "source_url": "https://portal.core.edu.au/conf-ranks/711/",
+          "ranking_record_name": "IEEE International Working Conference on Mining Software Repositories"
+        }
+      },
+      "year": 2027,
+      "event": {
+        "start_date": "2027-04-26",
+        "end_date": "2027-04-27"
+      },
+      "location": {
+        "venue": "The Convention Centre Dublin",
+        "city": "Dublin",
+        "region": null,
+        "country": "Ireland",
+        "country_code": "IE",
+        "continent": "Europe"
+      },
+      "official_url": "https://2027.msrconf.org/",
+      "tracks": [
+        {
+          "id": "msr-2027-technical",
+          "name": "Technical Papers",
+          "category": "research",
+          "archival": true,
+          "paper_categories": [
+            {
+              "name": "Full technical paper",
+              "main_text_pages": 10,
+              "reference_pages": 2,
+              "references_excluded_from_main_limit": true,
+              "format": "ACM sigconf, double column",
+              "notes": "Four-page work-in-progress papers are excluded."
+            }
+          ],
+          "deadlines": [
+            {
+              "type": "abstract",
+              "label": "Technical papers abstract",
+              "date": "2026-10-20",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": null,
+              "conditional": false,
+              "notes": "The official site lists an abstract date; the CFP encourages early abstract entry but does not clearly call it mandatory."
+            },
+            {
+              "type": "full_paper",
+              "label": "Technical papers paper deadline",
+              "date": "2026-10-23",
+              "time": "23:59:59",
+              "timezone": "UTC-12:00",
+              "timezone_label": "AoE",
+              "mandatory": true,
+              "conditional": false,
+              "notes": null
+            }
+          ],
+          "cfp_url": "https://2027.msrconf.org/track/msr-2027-technical-papers"
+        }
+      ],
+      "verification": {
+        "status": "human_reviewed",
+        "verified_at": "2026-07-28T20:08:42+02:00",
+        "sources": [
+          "https://2027.msrconf.org/",
+          "https://2027.msrconf.org/track/msr-2027-technical-papers",
+          "https://portal.core.edu.au/conf-ranks/711/"
+        ],
+        "notes": []
+      }
+    }
+  ],
+  "checked_but_not_included": [
+    {
+      "id": "icst-2027-research",
+      "conference_acronym": "ICST",
+      "rank": "A",
+      "status": "needs_verification",
+      "reason": "The 2027 event date, location, and November 2, 2026 research submission deadline are official, but the current 2027 CFP does not state a page limit. The 2026 page limit was not carried forward.",
+      "sources": [
+        "https://conf.researchr.org/home/icst-2027",
+        "https://conf.researchr.org/track/icst-2027/icst-2027-research-papers"
+      ]
+    },
+    {
+      "id": "icse-2027-industry-challenge",
+      "conference_acronym": "ICSE",
+      "rank": "A*",
+      "status": "needs_verification",
+      "reason": "The November 13, 2026 solution-paper deadline and 10-page limit are official, but archival publication in the proceedings is not explicitly stated on the CFP.",
+      "sources": [
+        "https://conf.researchr.org/track/icse-2027/icse-2027-industry-challenge"
+      ]
+    },
+    {
+      "id": "saner-2027-registered-reports",
+      "conference_acronym": "SANER",
+      "rank": "A",
+      "status": "excluded",
+      "reason": "The initial report is limited to 6 pages plus 1 reference page and is not published in the SANER proceedings.",
+      "sources": [
+        "https://conf.researchr.org/track/saner-2027/saner-2027-registered-report-track"
+      ]
+    },
+    {
+      "id": "icse-2027-workshop-papers",
+      "conference_acronym": "ICSE",
+      "rank": "A*",
+      "status": "needs_verification",
+      "reason": "The umbrella workshop call permits 8-page regular papers, but publication is optional per workshop and individual accepted-workshop calls are not yet complete. The current Researchr deadline table lists November 13, 2026, while older page text still lists November 27.",
+      "sources": [
+        "https://conf.researchr.org/track/icse-2027/icse-2027-workshops",
+        "https://conf.researchr.org/dates/icse-2027"
+      ]
+    },
+    {
+      "id": "icsa-2027-new-and-emerging-ideas",
+      "conference_acronym": "ICSA",
+      "rank": "A",
+      "status": "needs_verification",
+      "reason": "Researchr lists a December 20, 2026 paper deadline, but the track page does not yet publish a page limit or complete call for papers.",
+      "sources": [
+        "https://conf.researchr.org/dates/icsa-2027",
+        "https://conf.researchr.org/committee/icsa-2027/icsa-2027-new-and-emerging-ideas-new-and-emerging-ideas"
+      ]
+    },
+    {
+      "id": "ase-2027",
+      "conference_acronym": "ASE",
+      "rank": "A*",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "ease-2027",
+      "conference_acronym": "EASE",
+      "rank": "A",
+      "status": "partially_announced",
+      "reason": "The Hanoi event dates and track names are announced, but the 2027 track pages do not yet publish page limits or submission deadlines.",
+      "sources": [
+        "https://conf.researchr.org/home/ease-2027",
+        "https://conf.researchr.org/track/ease-2027/ease-2027-papers"
+      ]
+    },
+    {
+      "id": "esem-2027",
+      "conference_acronym": "ESEM",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "icsme-2027",
+      "conference_acronym": "ICSME",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "issre-2027",
+      "conference_acronym": "ISSRE",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "issta-2027",
+      "conference_acronym": "ISSTA",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "models-2027",
+      "conference_acronym": "MODELS",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    },
+    {
+      "id": "re-2027",
+      "conference_acronym": "RE",
+      "rank": "A",
+      "status": "not_yet_announced",
+      "reason": "No verified 2027 eligible-track CFP and future full-paper deadline were available.",
+      "sources": []
+    }
+  ]
+}
